@@ -1,0 +1,36 @@
+[user]
+	name = Nick Kirby
+	email = nrkirb@gmail.com
+[core]
+	editor = \"C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe\" --wait
+[alias]
+	# Add all & commit
+	ac = !git add . && commit
+	# Branch
+	b = branch
+	# Checkout
+	ch = checkout
+	# Commit amend
+	ca = commit --amend
+	# Delete all including unstaged changes
+	del = !git clean -fd && git reset --hard
+	# Log pretty
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# Status
+	s = status
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[rebase]
+	autoStash = false
+[diff]
+	guitool = bc
+[difftool "bc"]
+	path = C:/Program Files/Beyond Compare 4/bcomp.exe
+	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[merge]
+	guitool = vscode
+[mergetool "vscode"]
+	path = C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe
+	cmd = \"C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe\" --wait \"$MERGED\"
