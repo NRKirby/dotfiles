@@ -1,0 +1,27 @@
+[user]
+	name = Nick Kirby
+	email = nrkirb@gmail.com
+[alias]
+	# Branch
+	b = branch
+	# Checkout
+	ch = checkout
+	# Commit amend
+	ca = commit --amend
+	# Delete all including unstaged changes
+	del = !git clean -fd && git reset --hard
+	# Log pretty
+	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# Status
+	s = status
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[core]
+	editor = code --wait
