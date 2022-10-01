@@ -16,4 +16,6 @@ brew install --cask rectangle
 brew install --cask shottr
 
 # Other tools
+brew install just
+
 brew install tmux
