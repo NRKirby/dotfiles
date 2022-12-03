@@ -21,6 +21,8 @@ brew install --cask iterm2
 
 brew install just
 
+brew install --cask slack
+
 brew install tmux
 
 brew install vim
