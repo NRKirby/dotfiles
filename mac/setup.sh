@@ -17,6 +17,8 @@ brew install --cask azure-data-studio
 
 brew install --cask dbeaver-community
 
+brew install --cask docker
+
 brew install git
 
 brew install --cask iterm2
