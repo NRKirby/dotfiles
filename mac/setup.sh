@@ -13,6 +13,8 @@ brew install --cask shottr
 # Dev Tools
 brew install asdf
 
+brew install --cask azure-data-studio
+
 brew install --cask dbeaver-community
 
 brew install git
@@ -20,6 +22,8 @@ brew install git
 brew install --cask iterm2
 
 brew install just
+
+brew install --cask pgadmin4
 
 brew install --cask slack
 
