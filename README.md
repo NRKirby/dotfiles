@@ -3,9 +3,12 @@
 ## mac
 
 - setup.sh - brew install commands etc
-- vscode - settings and extensions
 - .gitconfig
 - .zshrc
+
+## shared
+
+- vscode - settings and extensions
 
 ## windows
 
