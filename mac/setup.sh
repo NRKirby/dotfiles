@@ -33,6 +33,8 @@ brew install just
 
 brew install --cask pgadmin4
 
+brew install rg
+
 brew install --cask slack
 
 brew install tmux
