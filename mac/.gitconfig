@@ -2,6 +2,8 @@
 	name = Nick Kirby
 	email = nrkirb@gmail.com
 [alias]
+	# Add all & commit
+	ac = "!git add . && git commit"
 	# Branch
 	b = branch
 	# Checkout

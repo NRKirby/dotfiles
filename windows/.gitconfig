@@ -5,7 +5,7 @@
 	editor = \"C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe\" --wait
 [alias]
 	# Add all & commit
-	ac = !git add . && commit
+	ac = "!git add . && git commit"
 	# Branch
 	b = branch
 	# Checkout
