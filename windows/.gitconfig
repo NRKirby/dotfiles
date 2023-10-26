@@ -16,6 +16,8 @@
 	del = !git clean -fd && git reset --hard
 	# Log pretty
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# Push force with lease
+	pfl = push --force-with-lease
 	# Status
 	s = status
 [pull]
