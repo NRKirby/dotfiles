@@ -12,10 +12,10 @@
 	ca = commit --amend
 	# Delete all including unstaged changes
 	del = !git clean -fd && git reset --hard
+	# Force push with lease
+	f = push --force-with-lease
 	# Log pretty
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-	# Push force with lease
-	pfl = push --force-with-lease
 	# Status
 	s = status
 [pull]
