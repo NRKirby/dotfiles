@@ -6,3 +6,6 @@ defaults write -g com.apple.mouse.scaling -float 12
 
 # Always show hidden files in Finder
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# Turn off startup sound
+sudo nvram StartupMute=%01
