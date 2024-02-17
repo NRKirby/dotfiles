@@ -1,8 +1,6 @@
 [user]
 	name = Nick Kirby
 	email = nrkirb@gmail.com
-[core]
-	editor = \"C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe\" --wait
 [alias]
 	# Add all & commit
 	ac = "!git add . && git commit"
@@ -20,19 +18,21 @@
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	# Status
 	s = status
-[pull]
-	rebase = true
-[fetch]
-	prune = true
-[rebase]
-	autoStash = false
+[core]
+	editor = \"C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe\" --wait
 [diff]
 	guitool = bc
 [difftool "bc"]
 	path = C:/Program Files/Beyond Compare 4/bcomp.exe
 	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
+[fetch]
+	prune = true
 [merge]
 	guitool = vscode
 [mergetool "vscode"]
 	path = C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe
 	cmd = \"C:/Users/Nick/AppData/Local/Programs/Microsoft VS Code/Code.exe\" --wait \"$MERGED\"
+[pull]
+	rebase = true
+[rebase]
+	autoStash = false
