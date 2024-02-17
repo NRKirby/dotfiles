@@ -27,6 +27,8 @@
 	cmd = \"C:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
 [fetch]
 	prune = true
+[init]
+	defaultBranch = main
 [merge]
 	guitool = vscode
 [mergetool "vscode"]
