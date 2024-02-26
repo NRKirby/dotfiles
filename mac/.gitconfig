@@ -16,6 +16,8 @@
 	f = push --force-with-lease
 	# Log pretty
 	l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	# Create a new branch and switch to it. Usage: git nb <branch> <new-branch>
+	nb = "!f() { git fetch origin $1:$1 && git checkout -b $2; }; f"
 	# Status
 	s = status
 [core]
