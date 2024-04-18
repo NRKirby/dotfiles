@@ -1,5 +1,4 @@
 brew "asdf"
-brew "fig"
 brew "git"
 brew "just"
 brew "lazygit"
@@ -9,6 +8,7 @@ brew "vim"
 
 cask "alt-tab"
 cask "azure-data-studio"
+cask "codewhisperer"
 cask "docker"
 cask "iterm2"
 cask "itsycal"
