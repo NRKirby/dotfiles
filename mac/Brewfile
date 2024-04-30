@@ -1,6 +1,7 @@
 brew "asdf"
 brew "git"
 brew "just"
+brew "kind"
 brew "lazygit"
 brew "rg"
 brew "tmux"
